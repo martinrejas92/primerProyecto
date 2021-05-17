@@ -7,7 +7,6 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	color: $black2;
 }
-
 h1,h2,h3,h4,h5,h6{
 	margin: 0;
 }
@@ -15,13 +14,11 @@ h1,h2,h3,h4,h5,h6{
 img{
 	max-width: 100%;
 }
-
 a, .btn-link{
 	&:hover{
 		text-decoration: none;
 	}
 }
-
 .btn.btn-primary{
 	font-weight: 500;
 	color: #fff;
@@ -48,7 +45,6 @@ a, .btn-link{
 }
 
 // Header
-
 header{
 	background: #fff;
 	padding: 10px 0;
