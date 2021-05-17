@@ -4,11 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">    
+    <title>Git/Github</title>
 </head>
 <body>
-    <h1> Hola mundo </h1>
+    <header>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-auto">
+                    <h1>MyOrderNow</h1>
+                </div>
+                <div class="col-auto">
+                    <div class="avatar-container" data-target="#profileOptions" data-toggle="modal">
+                        <img src="img/avatar.jpg" alt="avatar">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="profileOptions" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Opciones</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <!-- <span aria-hidden="true">&times;</span> -->
+                </div>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex atque voluptas ipsum, provident dicta aperiam accusamus quibusdam. Laboriosam ipsa, repellat quasi provident iste suscipit incidunt in porro dolorem, quis repudiandae, consectetur hic? Dicta dignissimos unde, culpa voluptas eius numquam? Perspiciatis ipsa suscipit doloribus saepe, cumque ad, odit eligendi, aliquid voluptas accusamus cupiditate fugiat officia quae iusto! Totam, hic architecto! Quas, assumenda porro! Ab ea rem explicabo totam aperiam at reiciendis esse minima voluptate dolor exercitationem rerum voluptatum voluptatibus facere architecto, quas quae. Soluta eaque vel voluptatibus laborum laudantium fuga in tempore amet, voluptates asperiores nobis fugiat incidunt nulla at repudiandae.</p>
+                <div class="modal-body">
+                  <ul class="profiles-option-list">
+                      <li>
+                          <a href="#"><i class="fas fa-user"></i>Mi perfil</a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fas fa-map-marked-alt"></i>Mis direcciones</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-credit-card"></i>Mis tarjetas</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-danger"><i class="fas fa-times-circle"></i> Cerrar sesion </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
